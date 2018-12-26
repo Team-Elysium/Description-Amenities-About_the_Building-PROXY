@@ -1,0 +1,27 @@
+{
+  "name": "Description-Amenities-About_the_Building-PROXY",
+  "version": "1.0.0",
+  "description": "Description-Amenities-About_the_Building PROXY",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy-start": "nodemon ./proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Elysium/Description-Amenities-About_the_Building-PROXY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Elysium/Description-Amenities-About_the_Building-PROXY/issues"
+  },
+  "homepage": "https://github.com/Team-Elysium/Description-Amenities-About_the_Building-PROXY#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1",
+    "nodemon": "^1.18.9"
+  }
+}
