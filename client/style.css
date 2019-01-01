@@ -1,0 +1,113 @@
+header {
+    background: rgb(54, 144, 228);
+    color: white;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    font-size: 12pt;
+    cursor: default;
+  }
+  
+  #logo {
+    height: 50px;
+    display: inline-block;
+  }
+  
+  #headerLinks {
+    float: right;
+    display: inline-block;
+  }
+  
+  #headerLinks a{
+    float: right;
+    margin: 12px;
+  }
+
+/* ============================================================== */
+
+  nav {
+    background: white;
+    position: fixed;
+    top: 50px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(54, 144, 228);
+    cursor: default;
+  }
+  
+  #navOptions {
+    text-transform: uppercase;
+    font-weight: 7;
+    margin: 12pt;
+    display: inline-block;
+  }
+  
+  #navOptions a {
+    margin: 0 12px;
+  }
+  
+  #searchBox {
+    float: right;
+    display: inline-block;
+    margin: .5em;
+  }
+  
+  #searchBox input {
+    border-radius: 1.5em;
+    border: 1px solid black;
+    padding: .5em 1.5em;
+    width: 20em;
+    font-size: 10pt;
+    cursor: default;
+  }
+  
+/* ============================================================== */
+  
+  #main {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  article {
+    background-color: lavenderblush;
+    padding: 1em;
+    margin: .5em;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  #mainListingBlock{
+    width: 55%;
+    display: inline-block;
+  }
+  
+  #carousel{
+    width: 100%;
+    height: 25em;
+  }
+  
+  #descriptionAndAboutTheBuilding {
+    width: 100%;
+    height: 80em;
+  }
+  
+  #listingDetails {
+    margin-right: 50px;
+    width: 35%;
+    float: right;
+    height: 85em;
+  }
+  
+  #similarListings {
+    width: 95%;
+    margin: 0;
+    height: 250px;
+  }
+
+  /* ============================================================== */
+
+  footer{
+      height: 50px;
+  }
