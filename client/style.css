@@ -85,24 +85,24 @@ header {
     display: inline-block;
   }
   
-  #carousel{
+  #carousel-container{
     width: 100%;
     height: 25em;
   }
   
-  #descriptionAndAboutTheBuilding {
+  #description-container {
     width: 100%;
     height: 80em;
   }
   
-  #listingDetails {
+  #details-container {
     margin-right: 50px;
     width: 35%;
     float: right;
     height: 85em;
   }
   
-  #similarListings {
+  #similar-container {
     width: 95%;
     margin: 0;
     height: 250px;
