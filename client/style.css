@@ -81,8 +81,9 @@ header {
   }
   
   #mainListingBlock{
-    width: 55%;
+    width: 45%;
     display: inline-block;
+    margin-left: 50px;
   }
   
   #carousel-container{
