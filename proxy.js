@@ -22,7 +22,7 @@ proxee.use('/api/carousel', proxy({
 
 proxee.use('/api/similarlistings', proxy({
     target: 'http://ec2-54-174-166-132.compute-1.amazonaws.com'
-})
+}));
 
 let port = 3100;
 proxee.listen(port, () => {
