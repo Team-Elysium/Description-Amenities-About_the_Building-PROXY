@@ -99,9 +99,9 @@ header {
   
   #details-container {
     margin-right: 70px;
-    width: 35%;
+    width: 50%;
     float: right;
-    height: 100000px;
+    height: 100em;
   }
   
   #similar-container {
