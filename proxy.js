@@ -11,9 +11,15 @@ proxee.use(bodyParser.urlencoded({
 }))
 proxee.use(cors());
 proxee.use('/:id', express.static(path.join(__dirname, './client')) )
+proxee.use('/streetBreezy/api/description', proxy({
+    target: 'http://ec2-18-218-251-40.us-east-2.compute.amazonaws.com:3009'
+}))
+
 proxee.use('/api/carousel', proxy({
     target: 'http://ec2-18-223-116-251.us-east-2.compute.amazonaws.com'
 }))
+
+proxee.use('')
 
 let port = 3100;
 proxee.listen(port, () => {
