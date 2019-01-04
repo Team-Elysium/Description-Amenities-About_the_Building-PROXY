@@ -24,6 +24,10 @@ proxee.use('/api/similarlistings', proxy({
     target: 'http://ec2-54-174-166-132.compute-1.amazonaws.com'
 }));
 
+proxee.use('/api/details', proxy({
+    target: 'http://ec2-18-218-63-198.us-east-2.compute.amazonaws.com'
+}))
+
 let port = 3100;
 proxee.listen(port, () => {
     console.log(`Proxy listening on port ${port}`);
