@@ -8,6 +8,7 @@ header {
     width: 100%;
     font-size: 12pt;
     cursor: default;
+    z-index: 1000000;
   }
   
   #logo {
@@ -35,6 +36,7 @@ header {
     width: 100%;
     border-bottom: 1px solid rgb(54, 144, 228);
     cursor: default;
+    z-index: 100000;
   }
   
   #navOptions {
