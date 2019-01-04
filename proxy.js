@@ -11,10 +11,9 @@ proxee.use(bodyParser.urlencoded({
 }))
 proxee.use(cors());
 proxee.use('/:id', express.static(path.join(__dirname, './client')) )
-// proxee.use('/', proxy({
-//     target: 'http://127.0.0.1:3009/', 
-//     changeOrigin: true
-// }))
+proxee.use('/api/carousel', proxy({
+    target: 'http://ec2-18-223-116-251.us-east-2.compute.amazonaws.com'
+}))
 
 let port = 3100;
 proxee.listen(port, () => {
