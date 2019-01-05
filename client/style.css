@@ -52,7 +52,7 @@ header {
   }
   
   #searchBox {
-    display: inline-block;
+    float: right;
     margin: .5em;
   }
   
