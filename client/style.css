@@ -1,7 +1,7 @@
 /* Code based on Jared Ellison's source at https://github.com/Team-Elysium/streeteasy-listing-proxy-server-jte  */
 
 header {
-    background: rgb(54, 144, 228);
+    background: #032765;
     color: white;
     position: fixed;
     height: 50px;
@@ -17,7 +17,7 @@ header {
   }
   
   #headerLinks {
-    display: inline-block;
+    float: right;
   }
   
   #headerLinks a{
@@ -33,7 +33,7 @@ header {
     top: 50px;
     height: 50px;
     width: 100%;
-    border-bottom: 1px solid rgb(54, 144, 228);
+    border-bottom: 1px solid #032765;
     cursor: default;
     z-index: 100000;
   }
