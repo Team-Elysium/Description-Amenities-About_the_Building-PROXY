@@ -14,7 +14,7 @@ proxee.use(bodyParser.urlencoded({
 proxee.use(cors());
 proxee.use('/:id', express.static(path.join(__dirname, './client')) )
 
-proxee.use('/streetBreezy/api/description', proxy({
+proxee.use('/api/description', proxy({
     target: 'http://ec2-18-218-251-40.us-east-2.compute.amazonaws.com:3009'
 }))
 
