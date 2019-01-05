@@ -3,15 +3,15 @@ const proxy = require('http-proxy-middleware');
 const bodyParser = require('body-parser');
 const path = require('path');
 const cors = require('cors');
-const compression = require('compression')
+const compression = require('compression');
 
 let proxee = express();
 
+proxee.use(compression());
 proxee.use(bodyParser.urlencoded({
     extended: true
 }))
 proxee.use(cors());
-proxee.use(compression());
 proxee.use('/:id', express.static(path.join(__dirname, './client')) )
 
 proxee.use('/streetBreezy/api/description', proxy({
